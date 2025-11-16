@@ -1,0 +1,73 @@
+{
+  "next_close": {
+    "xgb": {
+      "cv_folds": [
+        {
+          "fold": 0,
+          "metrics": {
+            "mae": 10.403113114206414,
+            "rmse": 13.011159313989314,
+            "r2": 0.9204854361254439,
+            "mape": 0.8674856048678252
+          }
+        },
+        {
+          "fold": 1,
+          "metrics": {
+            "mae": 95.48250379060444,
+            "rmse": 132.48770026458632,
+            "r2": -0.5170183556622374,
+            "mape": 6.660437696929019
+          }
+        },
+        {
+          "fold": 2,
+          "metrics": {
+            "mae": 21.839400442023027,
+            "rmse": 30.410088146436358,
+            "r2": 0.12059792776472666,
+            "mape": 1.4949401405752423
+          }
+        },
+        {
+          "fold": 3,
+          "metrics": {
+            "mae": 30.703370746813324,
+            "rmse": 41.514130605709205,
+            "r2": 0.5604184813886672,
+            "mape": 2.026895528753216
+          }
+        },
+        {
+          "fold": 4,
+          "metrics": {
+            "mae": 18.20243273283306,
+            "rmse": 23.21874105771824,
+            "r2": 0.6445653541759144,
+            "mape": 1.4185014042879882
+          }
+        }
+      ],
+      "test_metrics": {
+        "mae": 13.699415989925987,
+        "rmse": 17.534786517412204,
+        "r2": 0.9653204869709503,
+        "mape": 0.9918648718693173
+      },
+      "best_params": {
+        "n_estimators": 500,
+        "learning_rate": 0.05,
+        "max_depth": 6,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "random_state": 42
+      },
+      "saved": {
+        "model_path": "models\\next_close\\next_close_xgb_xgb.json",
+        "framework": "xgboost",
+        "scaler_path": "models\\next_close\\next_close_xgb_scaler.joblib",
+        "predictors_path": "models\\next_close\\next_close_xgb_predictors.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+target,prediction,model_dir
+next_close,1508.4134521484375,models/next_close
